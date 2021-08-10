@@ -1,0 +1,178 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+.hero{
+    display:flex;
+    background-image: url('./images/bg-intro-desktop.png');
+    background-color: hsl(0, 100%, 74%);
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap:wrap;
+  
+}
+
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    color:white;
+    margin-left:0 auto ;
+    
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 300px;
+    
+    
+}
+
+p{
+    font-size: 14px;
+    
+}
+
+.text h1{
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 36px;
+    line-height: 1.1;
+
+    
+    
+
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+   
+    padding:25px;
+    border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    flex-grow: 1;
+    margin:0 auto 0;
+    
+    
+    
+}
+
+input{
+    margin-bottom: 25px;
+    font-size: 12px;
+    padding: 6px;
+   
+    
+}
+
+.banner{
+    background-color: #5d53a3;
+    color: white;
+    padding: 15px 67px ;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    font-size: 12px;
+
+}
+
+.disclousure{
+    margin-top: 10px;
+    font-size: 10px;
+}
+
+span{
+    color: red;
+    font-size: 10px ;
+}
+
+
+button{
+    background-color:#37cc8a;
+    padding: 5px;
+    font-size:12px;
+    border:3px solid #60bd96;
+    cursor: pointer;
+    text-transform: uppercase;
+    color:white;
+    border-radius: 3px;
+}
+
+/* @media screen and (max-width:679px) {
+    .text h1{
+       margin-top: 40px;
+    }
+    .text {
+        margin-bottom: 40px;
+        align-items:center;
+        height:20%
+    }
+
+    .form{
+    }
+
+    .hero{
+        height: fit-content;
+    }
+    p{
+        text-align: center;
+    }
+} */
+
+
+@media screen and (max-width:679px) {
+ div.text{
+     padding-left: 10%;
+     padding-right: 10%;
+     margin-bottom: 0px;
+     justify-content: center;
+    margin-top: 76px;
+    width: 400px;
+    
+
+ }
+
+ .text h1{
+     font-size: 22px;
+     text-align: center;
+ }
+ p{
+     text-align: center;
+     
+ }
+
+ .banner{
+     padding: 15px 10%;
+     margin: 20px 0px;
+     text-align: center;
+ }
+
+ .form{
+     padding: 10%;
+     margin:10px 0px 10px 0px ;
+     padding-top: 0px;
+
+    
+ }
+
+ form{
+    margin:25px 0px;
+    box-shadow:0px 3px 5px 6px hsl(0, 100%, 74%) ;
+ }
+
+}
+
+
